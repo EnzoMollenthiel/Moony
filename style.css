@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	background: black;
+}
+
+#video-background{
+	position: fixed; 
+	top: 50%; 
+	left: 50%; 
+	min-width: 100%;
+ 	min-height: 100%; 
+ 	width: auto; 
+	height: auto; 
+ 	z-index: -100; 
+ 	transform: translateX(-50%) translateY(-50%); 
+ 	transition: 1s opacity;
+	opacity: 0.8;
+	background-color: black;
+}
+
+.button-container{
+	bottom: 70px; 
+	right: 50px; 
+	position: absolute;
+}
+.button { 
+	font-size: 1.5em; 
+	color: white; 
+	font-family: 'Abel', sans-serif; 
+	border: 2px solid white; 
+	border-radius: 5px; 
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+	padding: 5px 10px 5px 10px; 
+	z-index:10;
+}
+
+a{
+	font-style: none;
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	text-decoration:none;
+}
+
+.nav{
+	list-style-type: none;
+}
+
+.links{
+	margin-right:140px;
+}
+
+@media (max-width: 700px) {
+	#video-background {
+		display: none;
+	}
+	body{
+		background-image: url(burger.jpg);
+		background-size: 285%;
+		background-position: 45% 105%;
+		z-index: 1;
+	}
+	.button-container{
+		bottom: 20px; 
+		right: 20px; 
+		position: absolute;
+	}
+
+}
+
+@media (max-width: 800px) and (min-width:700px) {
+	#video-background {
+		display: none;
+	}
+	body{
+		background-image: url(burger.jpg);
+		background-size: 255%;
+		background-position: 49% 105%;
+		z-index: 1;
+	}
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+	#video-background {
+		display: none;
+	}
+	body{
+		background-image: url(burger.jpg);
+		background-size: 255%;
+		background-position: 49% 105%;
+		z-index: 1;
+		
+	}
+}

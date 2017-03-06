@@ -1,0 +1,43 @@
+.container-fluid{
+    background: white;
+    margin: 0;
+    margin-bottom: 970px;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+body{
+    background: url(burger.jpg);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:55% 80%;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.over{
+    position: fixed;
+    z-index: 10;
+}
+
+.menu{
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    width: 500px;
+    margin-left: 500px;
+}
+
+header{
+    background-image: url(https://webmasterbank.files.wordpress.com/2012/02/bg-header-index.jpg);
+    height: 450px;
+    z-index: 1;
+    position: relative;
+    margin-bottom:0;
+}
+
