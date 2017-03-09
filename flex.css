@@ -142,9 +142,9 @@ header{
         margin-bottom: 1100px;;
     }
      #social{
-        width: 2em;
-        height: 2em;
-        margin: 0.5em;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
     }
     .menu{
         z-index: 1;
@@ -154,7 +154,8 @@ header{
         position: fixed;
         left: 40%;
         top: 40%;
-        font-size: 1em;
+        font-size: 20px;
+        margin: 0;
 }
     body .delivery{
         position: fixed;

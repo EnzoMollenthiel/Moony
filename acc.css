@@ -30,7 +30,8 @@ p{
 #logo{
     width: 300px;
     height: 250px;
-    margin: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
     transform: rotate(-12deg);
 }
 
@@ -40,9 +41,10 @@ p{
     right: 50px;
 }
 #social{
-    width: 3em;
-    height: 3em;
-    margin: 1em;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 body .delivery{
     position: fixed;
@@ -75,7 +77,8 @@ button{
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
+    font-size: 30px;
+    margin: 0;
 }
 #menu:hover{
     color: #ff0098;
@@ -88,7 +91,6 @@ button{
     left: 40%;
     width: 20%;
     top: 40%;
-    font-size: 2em;
     text-shadow: 2px 2px 8px #555555;
     text-align: center;
 
@@ -140,9 +142,9 @@ header{
         margin-bottom: 1100px;;
     }
      #social{
-        width: 2em;
-        height: 2em;
-        margin: 0.5em;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
     }
     .menu{
         z-index: 1;
@@ -152,7 +154,8 @@ header{
         position: fixed;
         left: 40%;
         top: 40%;
-        font-size: 1em;
+        font-size: 20px;
+        margin: 0;
 }
     body .delivery{
         position: fixed;
