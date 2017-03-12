@@ -20,9 +20,10 @@ body{
 
 .button-container{
 	bottom: 70px; 
-	right: 50px; 
+	right: 100px; 
 	position: absolute;
 }
+
 .button { 
 	font-size: 1.5em; 
 	color: white; 
@@ -81,6 +82,7 @@ body{
 		background-image: url(burger.jpg);
 		background-size: 255%;
 		background-position: 49% 105%;
+		background-repeat: no-repeat;
 		z-index: 1;
 	}
 
